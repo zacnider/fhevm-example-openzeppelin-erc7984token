@@ -1,21 +1,21 @@
 # ERC7984Token
 
-Basic ERC7984 confidential token implementation with EntropyOracle integration
+Learn how to basic erc7984 confidential token implementation with encrypted randomness integration
 
-## Overview
+## 📚 Overview
 
 @title EntropyERC7984Token
-@notice Basic ERC7984 confidential token implementation with EntropyOracle integration
+@notice Basic ERC7984 confidential token implementation with encrypted randomness integration
 @dev Example demonstrating ERC7984 confidential token standard with encrypted balances
-This example shows:
+In this example, you will learn:
 - ERC7984 confidential token standard implementation
 - Encrypted balances using euint64
 - Transfer functions with encrypted amounts
 - Mint/burn operations
-- EntropyOracle integration for random token operations
+- encrypted randomness integration for random token operations
 
-@notice Constructor - initializes token with EntropyOracle
-@param _entropyOracle Address of EntropyOracle contract
+@notice Constructor - initializes token with encrypted randomness
+@param _encrypted randomness Address of encrypted randomness contract
 @param _name Token name
 @param _symbol Token symbol
 
@@ -44,8 +44,8 @@ This example shows:
 @notice Get encrypted total supply
 @return Encrypted total supply (euint64)
 
-@notice Get EntropyOracle address
-@return EntropyOracle contract address
+@notice Get encrypted randomness address
+@return encrypted randomness contract address
 
 @notice Burn encrypted tokens
 @param encryptedAmount Encrypted amount to burn
